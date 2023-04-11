@@ -4,7 +4,7 @@ ___
 In this __GET__ request, we want to search popular list of TV Shows.
 
 __Use below path:__
-```
+```js {.line-numbers}
 tv/popular?api_key=1234567890
 ```
 ///***
@@ -12,7 +12,7 @@ tv/popular?api_key=1234567890
 In Query Params we need __{{apiKey}}(fake)__.
 
 __Test code below:__
-```
+```js {.line-numbers}
 pm.test("Status code is 401 - OK", function () {
     pm.response.to.have.status(401);
 });
