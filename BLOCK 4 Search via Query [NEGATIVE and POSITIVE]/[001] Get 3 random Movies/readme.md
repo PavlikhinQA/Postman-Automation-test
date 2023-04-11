@@ -9,14 +9,14 @@ We need have account and must have authorization:
  
 In this step we need to take random movies from popular list.
 __Use below path:__
-``` js {.line-numbers}
+``` 
 movie/popular?api_key={{apiKey}}
 ```
 ![image](https://user-images.githubusercontent.com/122685448/231309921-7909088a-4400-45da-958d-42c09cebd25d.png)
  
 In Query Params we need __{{apiKey}}__.
 __Test code below:__
-```
+```js {.line-numbers}
 pm.test("Status code is 200 - OK", function () {
     pm.response.to.have.status(200);
 });
