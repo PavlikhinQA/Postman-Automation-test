@@ -1,0 +1,2 @@
+# BLOCK 3 Invalid RATE [NEGATIVE and POSITIVE]
+___
