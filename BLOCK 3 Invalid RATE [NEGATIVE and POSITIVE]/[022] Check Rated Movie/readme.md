@@ -8,12 +8,12 @@ __Use below path:__
 account/:account_id/rated/movies?api_key={{apiKey}}&session_id={{sessionId}}
 ```
 
-///***
+![image](https://user-images.githubusercontent.com/122685448/231308911-237a6023-90d3-43e3-8a1d-bdfba91a05c9.png)
  
 In Query Params we use __{{apiKey}}__, __{{sessionId}}__ and __{{account_id}}__.
 
 __Test code below:__
-```
+```js {.line-numbers}
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
@@ -32,11 +32,12 @@ In above code we are checking:
 Response of status code must be 200 and system rated correctly movie.
 
 __Body response:__
-///***
- 
+
+![image](https://user-images.githubusercontent.com/122685448/231308925-35b4e399-e8f6-4574-b74a-44dc3d2a2561.png)
 
 __Test response:__
-///***
+
+![image](https://user-images.githubusercontent.com/122685448/231308930-4fd40eda-6825-4c70-8282-30785c117e3f.png)
  
 
 
