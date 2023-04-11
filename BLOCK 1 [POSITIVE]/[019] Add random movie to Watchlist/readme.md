@@ -20,7 +20,7 @@ In Query Params we need __{{apiKey}}__, __{{sessionId}}__ and in Path __{{accoun
 ```
 
 __Test code below:__
-```
+``` js {.line-numbers}
 pm.test("Status code is 201 - OK", function () {
     pm.response.to.have.status(201);
 });
