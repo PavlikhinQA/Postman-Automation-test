@@ -7,6 +7,7 @@ __Use below path:__
 ```
 account/:account_id/rated/tv?api_key={{apiKey}}&session_id={{sessionId}}
 ```
+![image](https://user-images.githubusercontent.com/122685448/231297595-8dc38681-d468-4217-8e06-a3441c0e141d.png)
 
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, and in the Path __{{account_id}}__.
 
@@ -31,6 +32,7 @@ Response of status code must be 200, checking that exactly tv2id was rated and t
 
 Therefore, after pushing Send, we receive body response:
  
-///***
-In addition, test response:
+![image](https://user-images.githubusercontent.com/122685448/231297650-4c4fd7ce-a367-4c45-ab1d-92ded79e5606.png)
+__Test response:__
+![image](https://user-images.githubusercontent.com/122685448/231297670-402f7dd2-0263-4683-8d1a-468d9ae2d406.png)
 
