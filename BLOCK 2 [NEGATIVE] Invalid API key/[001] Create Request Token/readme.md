@@ -1,0 +1,58 @@
+# [001] Create Request Token
+___
+Before testing, we must have an account and must be authorized, but for exact negative testing, we will use fake value fro __[api_key]__
+Below on the screen we can see the rest variables:
+ 
+///***
+
+In the authorization tab, we create Token with __Bearer Token__ – which we will not create.
+Also must be known __User Name__, __Password__ and __Account Id__ – it will be real.
+In addition, I created __{{baseUrl}}__ variable to easy future work. 
+
+__Base url below:__
+```
+https://api.themoviedb.org/3/
+```
+So lest start testing. 
+
+First need to send __GET__ request to create requestToken. 
+
+__Use below path/query to base url:__
+```
+authentication/token/new?api_key=1234567890
+```
+
+You can find below parameters tab for such request:
+
+///***
+
+__Code test:__
+```
+pm.test("Status code is 401 - OK", function () {
+    pm.response.to.have.status(401);
+});
+
+const response = pm.response.json();
+
+pm.test("Token has not been created", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.success).to.eql(false);
+});
+```
+In above code we are checking:
+
+Response of status code must be 401. And Token must not create.
+
+Therefore, after this we click on button Send, we will find bellow response:
+
+Body response:
+
+///***
+
+__Test response:__
+
+///***
+
+
+
+
