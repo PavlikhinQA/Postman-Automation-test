@@ -11,7 +11,7 @@ __Use below path:__
 In Query Params add __{{apiKey}}__ and __{{sessionId}}__. 
 
 __Test code below:__
-```
+``` js {.line-numbers}
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
@@ -27,7 +27,9 @@ pm.test("Session created for account", function () {
 
 In above code we are checking:
 
-Response of status code must be 200. In addition, check that in response __[id]__ will equal as __{{account_id}}__ and username will be equal real user name.
+Response of status code must be 200. 
+
+In addition, check that in response __[id]__ will equal as __{{account_id}}__ and username will be equal real user name.
  
 ![image](https://user-images.githubusercontent.com/122685448/231020391-9d215fa2-5918-4489-a8d7-a7619b3642d0.png)
 ![image](https://user-images.githubusercontent.com/122685448/231020402-b4ea9290-9324-4115-8686-b8068df79490.png)
