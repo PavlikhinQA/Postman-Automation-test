@@ -10,7 +10,7 @@ account/:account_id/watchlist?api_key={{apiKey}}&session_id={{sessionId}}
 ![image](https://user-images.githubusercontent.com/122685448/231022028-bb9857b1-aed0-48ec-ba33-e007a0688678.png)
 
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, in the Path __{{account_id}}__ and in bode request:
-```
+```js {.line-numbers}
 {
   "media_type": "tv",
   "media_id": {{tv1Id}},
@@ -19,7 +19,7 @@ In Query Params we need __{{apiKey}}__, __{{sessionId}}__, in the Path __{{accou
 ```
 
 __Test code below:__
-```
+```js {.line-numbers}
 pm.test("Status code is 201 - OK", function () {
     pm.response.to.have.status(201);
 });
