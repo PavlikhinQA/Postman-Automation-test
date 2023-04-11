@@ -34,7 +34,7 @@ You can find below parameters tab for such request:
 
 __Code test:__
 
-```
+```js {.line-numbers}
 pm.test("Status code is 200 - OK", function () {
     pm.response.to.have.status(200);
 });
