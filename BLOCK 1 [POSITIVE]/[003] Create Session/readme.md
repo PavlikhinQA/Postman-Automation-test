@@ -9,7 +9,7 @@ __Use below path:__
 ```
 
 In Query Params need use __{{apiKey}}__ as on first step. In addition, we need to add body:
-```
+```js {.line-numbers}
 {
     "request_token": "{{requestToken}}"
 }
@@ -18,7 +18,7 @@ In Query Params need use __{{apiKey}}__ as on first step. In addition, we need t
 Request token we create on first step.
 
 __Test code below:__
-```
+```js {.line-numbers}
 pm.test("Status code is 200 - OK", function () {
     pm.response.to.have.status(200);
 });
@@ -33,7 +33,10 @@ pm.test("The token is attached to the user.", function () {
 
 In above code we are checking:
 
-Response of status code must be 200. In addition, check that token added to session.
+Response of status code must be 200. 
+
+In addition, check that token added to session.
+
 Also creating new variable __{{sessionId}}__.
 
 
