@@ -7,7 +7,8 @@ __Use below path:__
 ```
 account/:account_id/favorite?api_key={{apiKey}}&session_id={{sessionId}}
 ```
-///***
+![image](https://user-images.githubusercontent.com/122685448/231298265-ffd5f8ce-1f29-4dc4-9b23-d7d97f382b41.png)
+
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, in the Path __{{account_id}}__, and body request:
 ```
 {
@@ -37,7 +38,9 @@ Response of status code must be 200, checking that exactly random movie removed 
 
 Therefore, after pushing Send, we receive body response:
  
-///***
-In addition, test response:
-///***
+![image](https://user-images.githubusercontent.com/122685448/231298285-6450ffe8-cb4d-4da4-b7cd-1b51233159c5.png)
+
+__Test response:__
+
+![image](https://user-images.githubusercontent.com/122685448/231298293-20f84aec-386c-44f3-9ef9-ad788ef222c2.png)
 
