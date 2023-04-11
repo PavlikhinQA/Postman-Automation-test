@@ -39,4 +39,5 @@ In above code we are checking:
 
 Response of status code must be 200.
 Creating Variable __{{requestToken}}__, which will use in next requests and checking that it created.
+
 ![image](https://user-images.githubusercontent.com/122685448/231020192-3907f5ad-ed0a-4f1b-8c9b-44b68101e2b1.png)
