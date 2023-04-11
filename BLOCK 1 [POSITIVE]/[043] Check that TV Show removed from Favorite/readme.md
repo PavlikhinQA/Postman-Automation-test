@@ -7,7 +7,7 @@ __Use below path:__
 ```
 account/:account_id/favorite/tv?api_key={{apiKey}}&session_id={{sessionId}}
 ```
-///***
+![image](https://user-images.githubusercontent.com/122685448/231300381-db9a331f-fdd3-479e-896d-cf319e0deaa5.png)
 
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, and in the Path __{{account_id}}__.
 
@@ -32,8 +32,8 @@ Response of status code must be 200, checking that exactly random TV Show remove
 
 Therefore, after pushing Send, we receive body response:
  
-///***
+![image](https://user-images.githubusercontent.com/122685448/231300394-68e10eb4-8d2d-4c45-9ac7-f4b30a8749be.png)
 
 In addition, test response:
 
-///***
+![image](https://user-images.githubusercontent.com/122685448/231300407-bac5e4f0-939f-4790-bf7b-04b9e39e0734.png)
