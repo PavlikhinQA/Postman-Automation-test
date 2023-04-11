@@ -38,6 +38,14 @@ pm.test("The token is attached to the user.", function () {
 In above code we are checking:
 
 Response of status code must be 200.
+
 Creating Variable __{{requestToken}}__, which will use in next requests and checking that it created.
 
+__Body resposne:__
+
 ![image](https://user-images.githubusercontent.com/122685448/231020192-3907f5ad-ed0a-4f1b-8c9b-44b68101e2b1.png)
+
+__Test response__
+
+![image](https://user-images.githubusercontent.com/122685448/231301455-ea4b6985-5567-4674-80d5-e846bb3e31a6.png)
+
