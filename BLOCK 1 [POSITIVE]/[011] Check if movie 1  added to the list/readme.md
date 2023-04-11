@@ -12,7 +12,7 @@ list/:list_id/item_status?api_key={{apiKey}}&movie_id={{movie1Id}}
 In Query Params we need __{{apiKey}}__, __{{movie#Id}}__ and in Path __{{listId}}__
 
 __Test code below:__
-```
+``` js {.line-numbers}
 pm.test("Status code is 200 - OK", function () {
     pm.response.to.have.status(200);
 });
