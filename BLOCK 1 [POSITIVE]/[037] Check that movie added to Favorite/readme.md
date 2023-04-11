@@ -7,7 +7,7 @@ __Use below path:__
 ```
 account/:account_id/favorite/movies?api_key={{apiKey}}&session_id={{sessionId}}
 ```
-///***
+![image](https://user-images.githubusercontent.com/122685448/231298145-425afb4c-ef64-48f0-825c-6710efee785e.png)
 
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, and in the Path __{{account_id}}__:
 
@@ -31,8 +31,8 @@ Response of status code must be 200, checking that exactly random movie added to
 
 Therefore, after pushing Send, we receive body response:
 
-///***
+![image](https://user-images.githubusercontent.com/122685448/231298164-d4156b9f-5594-4c68-8164-ba63e309c250.png)
 
-In addition, test response:
+__Test response:__
 
-///***
+![image](https://user-images.githubusercontent.com/122685448/231298195-2b8fb9af-27da-4019-9ebb-0010662e23ed.png)
