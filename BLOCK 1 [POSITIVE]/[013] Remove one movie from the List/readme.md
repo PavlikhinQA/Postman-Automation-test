@@ -12,7 +12,7 @@ list/:list_id/remove_item?api_key={{apiKey}}&session_id={{sessionId}}&media_id={
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, __{{movie1Id}}__ and in Path __{{listId}}__ without body request.
 
 __Test code below:__
-```
+```js {.line-numbers}
 pm.test("Status code is 200 - OK", function () {
     pm.response.to.have.status(200);
 });
