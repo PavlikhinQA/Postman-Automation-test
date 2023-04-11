@@ -12,7 +12,7 @@ tv/:tv_id/rating?api_key={{apiKey}}&session_id={{sessionId}}&value={{myNumber2}}
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, value with new variable __{{myNumber2}}__, which will created in Pre-request and in the Path __{{tv2Id}}__, without body request.
 
 __Pre-req.:__
-```
+```js {.line-numbers}
 const randomNumber = (Math.floor(Math.random() * 19) + 1) / 2;
 pm.globals.set("myNumber2", randomNumber);
 ```
@@ -20,7 +20,7 @@ pm.globals.set("myNumber2", randomNumber);
 We created here new variable __{{myNumber2}}__ with random number: from 0,5 till 10 with step 0,5
 
 __Test code below:__
-```
+```js {.line-numbers}
 pm.test("Status code is 201", function () {
     pm.response.to.have.status(201);
 });
