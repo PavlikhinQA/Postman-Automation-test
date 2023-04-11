@@ -30,7 +30,7 @@ You can find below parameters tab for such request:
 ![image](https://user-images.githubusercontent.com/122685448/231304790-9763042a-c2d5-4d27-b6c4-93e7b67fface.png)
 
 __Code test:__
-```
+```js {.line-numbers}
 pm.test("Status code is 401 - OK", function () {
     pm.response.to.have.status(401);
 });
