@@ -8,7 +8,7 @@ __Use below path:__
 account/:account_id/favorite/tv?api_key={{apiKey}}&session_id={{sessionId}}
 ```
 
-///***
+![image](https://user-images.githubusercontent.com/122685448/231299342-8af2ba26-f534-4596-a21b-7a02c51a94e1.png)
 
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, and in the Path __{{account_id}}__:
 
@@ -33,8 +33,9 @@ Response of status code must be 200, checking that exactly random TV Show added 
 
 Therefore, after pushing Send, we receive body response:
 
-///***
+![image](https://user-images.githubusercontent.com/122685448/231299413-656ae29a-5dbb-483b-9b0b-eca963df6456.png)
 
-In addition, test response:
-///***
+__Test response:__
+
+![image](https://user-images.githubusercontent.com/122685448/231299513-927f77c9-70f9-4525-920f-bb5c8da57220.png)
 
