@@ -11,7 +11,7 @@ account/:account_id/watchlist/tv?api_key={{apiKey}}&session_id={{sessionId}}
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, in the Path __{{account_id}}__.
 
 __Test code below:__
-```
+```js {.line-numbers}
 pm.test("Status code is 200 - OK", function () {
     pm.response.to.have.status(200);
 });
