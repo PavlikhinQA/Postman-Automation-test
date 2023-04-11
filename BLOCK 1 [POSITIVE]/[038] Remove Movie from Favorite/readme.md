@@ -10,7 +10,7 @@ account/:account_id/favorite?api_key={{apiKey}}&session_id={{sessionId}}
 ![image](https://user-images.githubusercontent.com/122685448/231298265-ffd5f8ce-1f29-4dc4-9b23-d7d97f382b41.png)
 
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, in the Path __{{account_id}}__, and body request:
-```
+```js {.line-numbers}
 {
   "media_type": "movie",
   "media_id": {{movie6Id}},
@@ -19,7 +19,7 @@ In Query Params we need __{{apiKey}}__, __{{sessionId}}__, in the Path __{{accou
 ```
 
 __Test code below:__
-```
+``` js {.line-numbers}
 pm.test("Status code is 200 - OK", function () {
     pm.response.to.have.status(200);
 });
