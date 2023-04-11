@@ -8,7 +8,7 @@ __Use below path:__
 ```
 
 In Query Params need use __{{apiKey}}__ as on previous step. In addition, we need to add body:
-```
+``` js {.line-numbers}
 {
   "username": "{{userName}}",
   "password": "{{passWord}}",
@@ -21,7 +21,7 @@ User name and password – we create in Variables.
 Request token we create in previous step.
 
 __Test code below:__
-```
+``` js {.line-numbers}
 pm.test("Status code is 200 - OK", function () {
     pm.response.to.have.status(200);
 });
