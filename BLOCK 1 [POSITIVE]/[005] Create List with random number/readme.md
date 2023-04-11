@@ -15,7 +15,7 @@ Regarding documentation, we need add body for this request, but also we can add 
 __{{ApiKey}}__ and __{{SessionId}}__ we already know, but additional two Query Params are new:
 
 We need create name of list and description, I decided to use __pre-request__ and create random number and create description, using function in __JS__. For each of them I created variable.
-```
+``` js {.line-numbers}
 let  numberForList = parseInt(Math.random() * 10000);
 
 function getListName() {
@@ -35,7 +35,7 @@ pm.environment.set("listDescription",getDescription());
 ```
 
 __Test code below:__
-```
+``` js {.line-numbers}
 pm.test("Status code is 201", function () {
     pm.response.to.have.status(201);
 });
