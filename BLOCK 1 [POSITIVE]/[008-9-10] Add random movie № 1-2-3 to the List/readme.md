@@ -17,7 +17,7 @@ In Query Params we need __{{apiKey}}__, __{{sessionId}}__, __{{movie#Id}}__ and 
 
 __Test code below:__
 
-```
+``` js {.line-numbers}
 pm.test("Status code is 201 - OK", function () {
     pm.response.to.have.status(201);
 });
