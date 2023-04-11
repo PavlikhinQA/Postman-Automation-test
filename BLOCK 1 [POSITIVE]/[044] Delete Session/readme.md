@@ -12,7 +12,7 @@ authentication/session?api_key={{apiKey}}&session_id={{sessionId}}
 In Query Params we need __{{apiKey}}__ and __{{sessionId}}__.
 
 __Test code below:__
-```
+```js {.line-numbers}
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
