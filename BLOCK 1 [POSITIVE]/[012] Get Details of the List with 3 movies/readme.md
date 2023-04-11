@@ -12,7 +12,7 @@ list/:list_id?api_key={{apiKey}}
 In Query Params we need __{{apiKey}}__, and in Path __{{listId}}__
 
 __Test code below:__
-```
+``` js {.line-numbers}
 pm.test("Status code is 200 - OK", function () {
     pm.response.to.have.status(200);
 });
