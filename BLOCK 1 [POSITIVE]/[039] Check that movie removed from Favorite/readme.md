@@ -12,7 +12,7 @@ account/:account_id/favorite/movies?api_key={{apiKey}}&session_id={{sessionId}}
 In Query Params we need __{{apiKey}}__, __{{sessionId}}__, and in the Path __{{account_id}}__.
 
 __Test code below:__
-```
+``` js {.line-numbers}
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
