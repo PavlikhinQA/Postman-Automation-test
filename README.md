@@ -38,16 +38,12 @@ After analyzing all the [API documentation](https://developers.themoviedb.org/3/
 >__Second Block__
 ### Invalid API key [NEGATIVE]
 
-[001] Create Request Token
-[002] Create Session With Login
-[003] Create Session
-[004] Get Details of Account
-[005] Create List with random number
-[006] Get Details of the List
-[007] Get random Popular Movies
-[008] Get random Popular TV Show
-[009] Add random TV Show to Watchlist
-[010] Check that TV Show added to Watchlist
+| [001] Create Request Token | [002] Create Session With Login |
+| - | - |
+| [003] Create Session | [004] Get Details of Account |
+| [005] Create List with random number | [006] Get Details of the List |
+| [007] Get random Popular Movies | [008] Get random Popular TV Show |
+| [009] Add random TV Show to Watchlist | [010] Check that TV Show added to Watchlist |
 
 ![2023-04-11-04-44-22](https://user-images.githubusercontent.com/122685448/231403047-30582b91-218c-461d-8884-60f872708a92.gif)
 
