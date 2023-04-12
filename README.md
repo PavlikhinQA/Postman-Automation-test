@@ -32,6 +32,8 @@ After analyzing all the [API documentation](https://developers.themoviedb.org/3/
 | [043] Check that TV Show removed from Favorite| [044] Delete Session | 
 | [045] Check that sessisn has been deleted | | 
 
+__AUTOTEST OF FIRST BLOCK IN NEWMAN__
+
 ![1](https://user-images.githubusercontent.com/122685448/231402831-3a522a09-8f3d-46b6-b09f-7ded1bfb620f.gif)
 
 
@@ -44,6 +46,8 @@ After analyzing all the [API documentation](https://developers.themoviedb.org/3/
 | [005] Create List with random number | [006] Get Details of the List |
 | [007] Get random Popular Movies | [008] Get random Popular TV Show |
 | [009] Add random TV Show to Watchlist | [010] Check that TV Show added to Watchlist |
+
+__AUTOTEST OF SECOND BLOCK IN NEWMAN__
 
 ![2023-04-11-04-44-22](https://user-images.githubusercontent.com/122685448/231403047-30582b91-218c-461d-8884-60f872708a92.gif)
 
@@ -66,10 +70,12 @@ After analyzing all the [API documentation](https://developers.themoviedb.org/3/
 | [025] Check Rated Movie | [026] Delete Rate of the movie |
 | [027] Rate random Movie [NEGATIVE] Boundary-value 10.5 | [028] Check Rated Movie |
 
+__AUTOTEST OF THIRD BLOCK IN NEWMAN__
+
 ![2023-04-11-21-07-30](https://user-images.githubusercontent.com/122685448/231403170-acc1fd6b-7341-4333-a08a-6136e68ec64f.gif)
 
 >__Fourth Block__
-### BLOCK 3 Invalid RATE [NEGATIVE and POSITIVE]
+### BLOCK 4 Search via Query [NEGATIVE and POSITIVE]
 
 
 | [001] Get 3 random Movies | [002]  Check searching via Query chosen first movie |
@@ -78,6 +84,8 @@ After analyzing all the [API documentation](https://developers.themoviedb.org/3/
 | [005]  Check searching via Query unreal word | [006]  Check searching via Query unreal word with numbers |
 | [007]  Check searching via Query numbers (8 length) | [008]  Check searching via Query numbers (2 length) |
 | [009]  Check searching via Query signs !@#$%^&()_+-={}[];', | |
+
+__AUTOTEST OF FOURTH BLOCK IN NEWMAN__
 
 ![2023-04-11-23-30-37](https://user-images.githubusercontent.com/122685448/231403234-64422351-fcbc-425c-a50d-9790a5f0666d.gif)
 
