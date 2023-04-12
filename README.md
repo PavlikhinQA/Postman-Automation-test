@@ -8,10 +8,20 @@ After analyzing all the [API documentation](https://developers.themoviedb.org/3/
 >__First Block__
 ### POSITIVE
 
-[001] __GET__ Request to create [__request_token__]
-[002] __POST__ Request to create session with Login
-[003] __POST__ Request to create [__session_id__]
-[004] __GET__ Request to get details of the account
+| [001] __GET__ Request to create [__request_token__] | [002] __POST__ Request to create session with Login |
+| - | - |
+| [003] __POST__ Request to create [__session_id__] | [004] __GET__ Request to get details of the account |
+| [005] Create List with random number | [006] Get Details of the List |
+| [007] Get random Popular Movies | [008-9-10] Add random movie № 1-2-3 to the List |
+| [011] Check if movie 1 added to the list | [012] Get Details of the List with 3 movies|
+
+
+
+
+| [001] __GET__ Request to create [__request_token__] |
+| [002] __POST__ Request to create session with Login |
+| [003] __POST__ Request to create [__session_id__]|
+| [004] __GET__ Request to get details of the account |
 [005] Create List with random number
 [006] Get Details of the List
 [007] Get random Popular Movies
